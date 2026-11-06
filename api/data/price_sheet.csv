@@ -1,0 +1,13 @@
+﻿code,platform,format,creator_tier,price_sar,usage_days_included,extra_30_days_pct,max_discount_pct
+YT-INT-A,YouTube,Integration (60-90 sec inside a video),Tier A (10M+ subscribers),90000,30,20,10
+YT-INT-B,YouTube,Integration (60-90 sec inside a video),Tier B (3M-10M subscribers),45000,30,20,15
+YT-INT-C,YouTube,Integration (60-90 sec inside a video),Tier C (under 3M subscribers),20000,30,20,15
+YT-DED-A,YouTube,Dedicated video,Tier A (10M+ subscribers),200000,30,20,10
+YT-DED-B,YouTube,Dedicated video,Tier B (3M-10M subscribers),100000,30,20,10
+SC-STR-A,Snapchat,Story (3 snaps),Tier A (10M+ followers),30000,30,20,15
+SC-STR-B,Snapchat,Story (3 snaps),Tier B (under 10M followers),15000,30,20,20
+IG-REEL-A,Instagram,Reel,Tier A (10M+ followers),35000,30,20,15
+IG-REEL-B,Instagram,Reel,Tier B (under 10M followers),18000,30,20,20
+TT-VID-A,TikTok,Video,Tier A (10M+ followers),30000,30,20,15
+TT-VID-B,TikTok,Video,Tier B (under 10M followers),15000,30,20,20
+X-POST-A,X,Post,Tier A (5M+ followers),10000,30,20,20

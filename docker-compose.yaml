@@ -1,0 +1,9 @@
+services:
+  api:
+    build: ./api
+    container_name: padvagent-api
+    env_file: .env
+    environment:
+      APP_ENV: production
+    ports:
+      - "${PORT:-8110}:8000"

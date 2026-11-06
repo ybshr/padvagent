@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "POWR Advertising Agent"
+version = "0.1.0"
+description = ""
+authors = ["Platform Team"]
+readme = "README.md"
+packages = [
+    { include = "src" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.0"
+pydantic = "^2.10.6"
+pydantic-settings = "^2.8.1"
+python-dotenv = "^1.0.0"
+httpx = "^0.28.1"
+langgraph = "^1.0"
+langchain-openai = "^1.0"
+langchain-core = "^1.0"
+arabic-reshaper = "^3.1.0"
+python-bidi = "^0.6.12"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
